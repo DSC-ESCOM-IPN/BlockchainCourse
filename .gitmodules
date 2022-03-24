@@ -1,0 +1,6 @@
+[submodule "WeFund"]
+	path = WeFund
+	url = https://github.com/paul-cruz/WeFund.git
+[submodule "ConnectIoT"]
+	path = ConnectIoT
+	url = https://github.com/paul-cruz/ConnectIoT.git
