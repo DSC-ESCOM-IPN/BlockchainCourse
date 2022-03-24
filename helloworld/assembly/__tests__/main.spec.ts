@@ -20,3 +20,11 @@ describe('foreing greet', () => {
         expect(result).toBe('Salut, Paul!');
     });
 })
+
+describe('foreing greet obj', () => {
+    it('should return a foreing greet', () => {
+        var result = foreingGreet('Salut', 'Paul');
+        var greet = new Greeter('Salut', 'Paul');
+        expect(result).toBe(greet.greet());
+    });
+})
