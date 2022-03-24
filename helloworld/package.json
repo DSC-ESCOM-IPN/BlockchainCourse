@@ -1,0 +1,31 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello World smart contract in the NEAR Blockchain",
+  "main": "compile.js",
+  "scripts": {
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSC-ESCOM-IPN/BlockchainCourse.git"
+  },
+  "keywords": [
+    "blockchain",
+    "near"
+  ],
+  "author": "GDSC ESCOM IPN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DSC-ESCOM-IPN/BlockchainCourse/issues"
+  },
+  "homepage": "https://github.com/DSC-ESCOM-IPN/BlockchainCourse#readme",
+  "dependencies": {
+    "near-sdk-as": "^3.2.3"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
